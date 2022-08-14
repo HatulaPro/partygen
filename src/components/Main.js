@@ -103,7 +103,7 @@ const Main = () => {
 	return (
 		<div className="main">
 			<button type="button" onClick={genPartyName}>
-				שם מפלגה חדש
+				שם חדש
 			</button>
 
 			<p>{partyName}</p>
