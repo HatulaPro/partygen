@@ -3,7 +3,7 @@ import React from 'react';
 const ShareButton = ({ partyName }) => {
 	const shareIntent = () => {
 		try {
-			navigator.share({ title: `ההימור שלי למפלגה הבאה תקום: ${partyName.trim()}`, text: '', url: document.location });
+			navigator.share({ title: partyName.trim(), text: `ההימור שלי למפלגה הבאה תקום: ${partyName.trim()}`, url: '' });
 		} catch (e) {
 			console.log(e);
 		}
