@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { TwitterIcon, TwitterShareButton } from 'react-share';
 import ShareButton from './ShareButton';
 
 function randomInList(arr) {
@@ -108,7 +107,7 @@ const Main = () => {
 
 			<p>{partyName}</p>
 
-			<ShareButton partyName={partyName} />
+			{partyName && <ShareButton partyName={partyName} />}
 		</div>
 	);
 };
