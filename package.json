@@ -2,7 +2,7 @@
 	"name": "partygen",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://hatulapro.github.io",
+	"homepage": "https://partygen.github.io",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.3.0",
