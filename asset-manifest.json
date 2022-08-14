@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/partygen/static/css/main.429c440d.css",
-    "main.js": "/partygen/static/js/main.d32552af.js",
+    "main.js": "/partygen/static/js/main.3bd20e23.js",
     "index.html": "/partygen/index.html",
     "main.429c440d.css.map": "/partygen/static/css/main.429c440d.css.map",
-    "main.d32552af.js.map": "/partygen/static/js/main.d32552af.js.map"
+    "main.3bd20e23.js.map": "/partygen/static/js/main.3bd20e23.js.map"
   },
   "entrypoints": [
     "static/css/main.429c440d.css",
-    "static/js/main.d32552af.js"
+    "static/js/main.3bd20e23.js"
   ]
 }
